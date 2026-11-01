@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcelanasdani.cl</title>
+     <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav>
+    <ul>
+        <li><a href="Paginadeinicio.html">Inicio</a></li>
+        <li><a href="Galeria.html">Galería</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+    <h1>Contacto</h1>
+    <p class="parrafo-corto"> 
+        Si deseas contactarnos, no dudes en escribirnos a traves del formulario o en nuestras redes sociales</p>
+    <img src=contactodos.jpeg alt="Porcelanasdani" width="1000" height="auto"><br>
+    <img src=contactouno.jpeg alt="Porcelanasdani" width="200" class="imagen-final"><br>
+
+   <main>
+    <div class="columna-formulario"></div>
+
+    <div class="tarjeta-formulario">
+        <form action="#" method="POST" class="formulario-contacto">
+            <div class="campo-grupo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="campo-grupo">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Tucorreo@gmail.com">
+            </div>
+            <div class="campo-grupo">
+                <label for="asunto">Asunto:</label>
+                <select id="asunto" name="asunto">
+                    <option value="" disabled selected>Selecciona un asunto</option>
+                    <option value="encargo">Encargo personalizado</option>
+                    <option value="consulta">Consulta general</option>
+                </select>
+            </div>
+            <div class="campo-grupo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar</button>
+
+        </form>
+    </div>
+</main>
+
+</body>
+</html>
